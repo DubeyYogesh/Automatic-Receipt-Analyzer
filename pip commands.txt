@@ -1,0 +1,14 @@
+conda create -n paddle_env python=3.10 -y
+conda activate paddle_env
+pip install notebook ipykernel
+python -m ipykernel install --user --name paddle_env --display-name "Python (PaddleOCR+Transformers)"
+pip install paddlepaddle -f https://www.paddlepaddle.org.cn/whl/paddle_cpu.html
+pip install paddleocr
+pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
+pip install transformers
+pip install opencv-python matplotlib
+pip install numpy==1.26.4
+pip install streamlit
+pip install sentence-transformers
+
+
