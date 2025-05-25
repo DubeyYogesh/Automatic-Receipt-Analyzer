@@ -39,7 +39,7 @@ def extract_image(image_path):
         det_db_thresh=0.7,           # Binary thresholding step in box detection; higher = stricter
         det_db_unclip_ratio=1.2,     # Shrinks boxes slightly to reduce overlap (default ~2.0)
         det_db_score_mode='slow',    # Improves quality at the cost of speed; can use 'fast' or 'slow'
-        use_onnx=True)
+        use_onnx=True
     )
 
     # Run OCR on the image
