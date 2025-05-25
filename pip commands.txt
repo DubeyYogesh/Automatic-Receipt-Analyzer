@@ -3,7 +3,7 @@ conda activate paddle_env
 pip install notebook ipykernel
 python -m ipykernel install --user --name paddle_env --display-name "Python (PaddleOCR+Transformers)"
 pip install paddlepaddle -f https://www.paddlepaddle.org.cn/whl/paddle_cpu.html
-pip install paddleocr
+pip install paddleocr==2.6.1.3
 pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
 pip install transformers
 pip install opencv-python matplotlib
