@@ -1,6 +1,6 @@
 streamlit
 paddleocr==2.6.1.3
-paddlepaddle==2.5.2
-numpy
+onnxruntime
 opencv-python
 Pillow
+numpy
