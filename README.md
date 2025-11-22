@@ -77,6 +77,10 @@ pip install oracledb
 pip install transformers
 ```
 
+To download the knn model click the below link:
+```bash
+https://drive.google.com/file/d/1uoJ-fFFosyEP0RqqNBUxt2Q39HhBtow4/view?usp=sharing
+```
 ---
 
 🚀 Usage
